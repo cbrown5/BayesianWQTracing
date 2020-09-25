@@ -4,11 +4,19 @@
 
 This repository has code for fitting a Bayesian model that links coastal water quality as measured by satellites to catchment runoff.
 
-![](model-fits-Fiji.JPG)
-
 Citation:
 
 [Brown CJ, Jupiter SD, Albert S, Klein CJ, Mangubhai S, Maina JM, Mumby P, Olley J, Stewart-Koster B, Tulloch V, Wenger A. Tracing the influence of land-use change on water quality and coral reefs using a Bayesian model. Scientific reports. 2017 Jul 6;7(1):1-0.](https://www.nature.com/articles/s41598-017-05031-7)
+
+![](model-fits-Fiji.JPG)
+
+**Figure** Results from the model's application to Vanua Levu, Fiji, showing predicted catchment contributions to coastal WQ, interpolated coastal WQ and residuals from the fits.
+
+### Abstract (from the paper)
+
+"Coastal ecosystems can be degraded by poor water quality. Tracing the causes of poor water quality back to land-use change is necessary to target catchment management for coastal zone management. However, existing models for tracing the sources of pollution require extensive data-sets which are not available for many of the world’s coral reef regions that may have severe water quality issues. Here we develop a hierarchical Bayesian model that uses freely available satellite data to infer the connection between land-uses in catchments and water clarity in coastal oceans. We apply the model to estimate the influence of land-use change on water clarity in Fiji. We tested the model’s predictions against underwater surveys, finding that predictions of poor water quality are consistent with observations of high siltation and low coverage of sediment-sensitive coral genera. The model thus provides a means to link land-use change to declines in coastal water quality."
+
+### Using this code
 
 Feel free to email me if you have queries about running these models (chris.brown@griffith.edu.au). The model was created in 2015, so R has progressed considerably since then. If I was to do this again, I'd use updated spatial packages (updates to raster and pkg sf, instead of sp), and probably write the model with STAN which is much faster at fitting models than JAGS.
 
