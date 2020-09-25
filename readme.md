@@ -2,7 +2,7 @@
 
 2020-09-25
 
-This repository has code for fitting a Bayesian model that links coastal water quality as measured by satellites to catchment runoff.
+This repository has code for fitting a Bayesian model that links coastal water quality as measured by satellites to catchment runoff and sediment yield.
 
 Citation:
 
